@@ -53,7 +53,7 @@ const AuthForm = () => {
 
   return (
     <div className='flex min-h-screen w-full max-w-[500px] flex-col justify-center gap-5 py-10 md:gap-8'>
-        {/* <img src='Log-in\src\assets\favicon.ico'></img> */}
+        <img src='src\assets\logo.svg'></img>
         <Form {...form}>
             <form className="space-y-6" onSubmit={form.handleSubmit(onSubmit)}>
                 <CustomInput
